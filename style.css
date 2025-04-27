@@ -1,0 +1,145 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: black; 
+    color: white;
+    text-align: center;
+}
+
+
+header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    min-height: 70px;
+    background: darkslategray;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: gold; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: gold; /* Instead of #ffcc00 */
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, darkslategray, gray); /* Instead of #1a1a1a to #333 */
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: gold; 
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: orange; 
+}
+
+.about, .services, .portfolio, .contact {
+    padding: 50px;
+}
+
+.about h2, .services h2, .portfolio h2, .contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.service-box {
+    background: dimgray; 
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.service-box h3 {
+    color: gold; 
+}
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background: gold; 
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background: orange;
+}
+
+
+footer {
+    padding: 20px;
+    background: darkslategray; 
+}
+/* .about{
+    text-decoration: ;
+} */
+ .img1{
+    max-height: 6opx;
+    height: 100px;
+    width: 100px;
+    
+ }
